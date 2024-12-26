@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "jetpack-io.devbox",
+        // "mkhl.direnv",
+        "bazelbuild.vscode-bazel",
+        "scalameta.metals",
+    ]
+}

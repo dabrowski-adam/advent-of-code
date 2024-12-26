@@ -1,0 +1,20 @@
+{
+    // Do not watch generated files.
+    "files.watcherExclude": {
+        ".devbox": true,
+        "bazel-*": true,
+        "**/target": true
+    },
+    // Hide ignored files.
+    "explorer.excludeGitIgnore": true,
+    // Collapse files that are generated but have to be comitted.
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "devbox.json": "devbox.lock, .envrc",
+        "MODULE.bazel": "MODULE.bazel.lock, maven.lock, BUILD",
+    },
+    "bazel.enableCodeLens": true,
+    // Optimize Bazel extension.
+    "bazel.queriesShareServer": false,
+    "docker.dockerPath": "docker",
+}
