@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.7/.schema/devbox.schema.json",
+  "packages": {
+    "git":                                               "2.47.0",
+    "bazel_7":                                           "7.4.1",
+    "jdk-headless":                                      "21.0.4",
+    "binutils":                                          "2.43.1",
+    "github:NixOS/nixpkgs/nixos-24.11#stdenv.cc.cc.lib": "",
+    "colima":                                            "0.8.0",
+    "direnv":                                            "2.35.0",
+    "buildifier":                                        "6.0.1",
+  },
+  "shell": {
+    "init_hook": [
+      "git --version | grep -q '2.47.0' || (echo 'Incorrect Git version' && exit 1)",
+      "bazel --version | grep -q '7.4.1' || (echo 'Incorrect Bazel version' && exit 1)"
+    ],
+    "scripts": {
+      "build": ["bazel build //..."],
+      "test":  ["bazel test //..."],
+      "start": ["colima start --runtime docker"],
+      "clean": ["bazel clean --expunge"]
+    }
+  }
+}
