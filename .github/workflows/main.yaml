@@ -9,6 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      USE_BAZEL_VERSION: 7.4.1
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
