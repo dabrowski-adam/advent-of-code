@@ -10,6 +10,9 @@
     "direnv":                                            "2.35.0",
     "buildifier":                                        "6.0.1"
   },
+  "env": {
+    "USE_BAZEL_VERSION": "7.4.1"
+  },
   "shell": {
     "init_hook": [
       "git --version | grep -q '2.47.0' || (echo 'Incorrect Git version' && exit 1)",
