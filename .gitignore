@@ -1,0 +1,10 @@
+**/.DS_Store
+.devbox
+bazel-*
+.bsp
+.metals
+.scala-build
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+auth.bazelrc
