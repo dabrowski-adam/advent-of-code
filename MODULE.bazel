@@ -1,0 +1,44 @@
+module(
+    name    = "advent_of_code",
+    version = "0.0.0",
+)
+
+bazel_dep(name = "rules_jvm_external", version = "6.6")
+
+# https://github.com/bazelbuild/rules_scala/issues/1482
+bazel_dep(name = "rules_scala", repo_name = "io_bazel_rules_scala")
+git_override(
+    module_name = "rules_scala",
+    commit      = "50fe91e5ab238a58d30d573125469a489454b1c0",
+    remote      = "https://github.com/mbland/rules_scala",
+)
+
+scala_config = use_extension(
+    "@io_bazel_rules_scala//scala/extensions:config.bzl",
+    "scala_config",
+)
+scala_config.settings(
+    scala_version = "3.6.2",
+)
+
+# scala_dev_deps = use_extension(
+#     "@io_bazel_rules_scala//scala/extensions:deps.bzl",
+#     "scala_deps",
+#     dev_dependency = True,
+# )   
+# scala_dev_deps.toolchains(
+#     scalafmt = True,
+# )
+
+# To update maven.lock, run this command to re-pin the unpinned repository:
+# REPIN=1 bazel run @maven//:pin
+maven = use_extension("@rules_jvm_external//:extensions.bzl", "maven")
+maven.install(
+    lock_file              = "//:maven.lock",
+    fail_if_repin_required = True,
+    fetch_sources          = True,
+    artifacts              = [
+        "org.typelevel:cats-effect_3:3.5.7"
+    ],
+)
+use_repo(maven, "maven")

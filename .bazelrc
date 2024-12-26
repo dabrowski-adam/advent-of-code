@@ -1,0 +1,47 @@
+common --enable_bzlmod
+
+# Use a minimal set of environment variables for action execution to improve
+# build hermeticity and remote cache hits.
+common --incompatible_strict_action_env
+
+# https://github.com/NixOS/nixpkgs/issues/150655#issuecomment-1935304859
+build --cxxopt=-xc++ --host_cxxopt=-xc++
+
+# Optimize Scala compilation.
+build --strategy=Scalac=worker
+build --worker_sandboxing
+
+# Configure Java toolchain.
+build --java_language_version=21
+build --tool_java_language_version=21
+build --java_runtime_version=remotejdk_21
+build --tool_java_runtime_version=remotejdk_21
+
+# Import BuildBuddy auth token.
+try-import ./auth.bazelrc
+
+# Enable BuildBuddy build event service
+build --bes_results_url=https://app.buildbuddy.io/invocation/
+build --bes_backend=grpcs://remote.buildbuddy.io
+
+# Enable BuildBuddy Remote Execution
+build:remote --remote_timeout=3600
+build:remote --remote_executor=grpcs://remote.buildbuddy.io
+build:remote --define=EXECUTOR=remote
+build:remote --jobs=128
+
+# Enable BuildBuddy Cache
+build --remote_cache=grpcs://remote.buildbuddy.io
+build --remote_timeout=3600
+
+# Reduce the payload size of the uploaded build event stream by eliminating duplicate file references.
+build --nolegacy_important_outputs
+
+# Improve remote cache throughput.
+build --experimental_remote_cache_compression
+
+# Avoid inflating blobs smaller than 100 bytes with ZSTD compression.
+build --experimental_remote_cache_compression_threshold=100
+
+# Keep more detailed timing profile.
+build --noslim_profile --experimental_profile_include_target_label --experimental_profile_include_primary_output 
