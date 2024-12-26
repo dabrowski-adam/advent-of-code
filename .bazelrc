@@ -1,5 +1,15 @@
 common --enable_bzlmod
 
+common --enable_platform_specific_config
+
+build --incompatible_disallow_empty_glob
+build --verbose_failures
+build --experimental_output_directory_naming_scheme=diff_against_dynamic_baseline
+
+build:linux --sandbox_add_mount_pair=/tmp
+build:macos --sandbox_add_mount_pair=/var/tmp
+build:windows --sandbox_add_mount_pair=C:\Temp
+
 # Use a minimal set of environment variables for action execution to improve
 # build hermeticity and remote cache hits.
 common --incompatible_strict_action_env
