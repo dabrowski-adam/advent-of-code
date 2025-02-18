@@ -19,7 +19,7 @@ register_toolchains(
     "@zig_sdk//toolchain:windows_arm64",
 )
 
-bazel_dep(name = "rules_jvm_external", version = "6.6")
+bazel_dep(name = "rules_jvm_external", version = "6.7")
 
 # https://github.com/bazelbuild/rules_scala/issues/1482
 bazel_dep(name = "rules_scala", repo_name = "io_bazel_rules_scala")
