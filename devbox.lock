@@ -146,6 +146,14 @@
               "default": true
             }
           ]
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "path": "/tmp/containerbase/cache/nix/store/143jhhm2l4c8357nraxm6l4b6a3wr4pw-bazel-buildtools-6.0.1",
+              "default": true
+            }
+          ]
         }
       }
     },
@@ -317,31 +325,39 @@
         }
       }
     },
-    "jdk-headless@21.0.4": {
-      "last_modified": "2024-12-03T12:40:06Z",
-      "resolved": "github:NixOS/nixpkgs/566e53c2ad750c84f6d31f9ccb9d00f823165550#jdk21_headless",
+    "jdk-headless@24.0.0": {
+      "last_modified": "2025-05-12T14:38:58Z",
+      "resolved": "github:NixOS/nixpkgs/eaeed9530c76ce5f1d2d8232e08bec5e26f18ec1#jdk24_headless",
       "source": "devbox-search",
-      "version": "21.0.4",
+      "version": "24.0.0",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/62vbkdvd43x2a9gv0sgsl9fskkhvl00z-zulu-ca-jdk-21.0.4",
+              "path": "/nix/store/57mwc7x3rn8b7f0n95jy80jxpcxrblqd-zulu-ca-jdk-24.0.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/62vbkdvd43x2a9gv0sgsl9fskkhvl00z-zulu-ca-jdk-21.0.4"
+          "store_path": "/nix/store/57mwc7x3rn8b7f0n95jy80jxpcxrblqd-zulu-ca-jdk-24.0.0"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/hqh090j1xl2ifb2r1lclnzvsqii85hfy-zulu-ca-jdk-21.0.4",
+              "path": "/nix/store/wham1rgp04m5pjflrmsdzkfha2b4fy9m-zulu-ca-jdk-24.0.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/hqh090j1xl2ifb2r1lclnzvsqii85hfy-zulu-ca-jdk-21.0.4"
+          "store_path": "/nix/store/wham1rgp04m5pjflrmsdzkfha2b4fy9m-zulu-ca-jdk-24.0.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "path": "/tmp/containerbase/cache/nix/store/nxrq579ja8x529i6b7cnif22flly3zjd-openjdk-headless-24.0.1+9",
+              "default": true
+            }
+          ]
         }
       }
     }
