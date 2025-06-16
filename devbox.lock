@@ -1,51 +1,51 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "bazel_7@7.4.1": {
-      "last_modified": "2024-11-18T00:41:09Z",
-      "resolved": "github:NixOS/nixpkgs/5083ec887760adfe12af64830a66807423a859a7#bazel_7",
+    "bazel_7@7.6.0": {
+      "last_modified": "2025-05-16T20:19:48Z",
+      "resolved": "github:NixOS/nixpkgs/12a55407652e04dcf2309436eb06fef0d3713ef3#bazel_7",
       "source": "devbox-search",
-      "version": "7.4.1",
+      "version": "7.6.0",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/1xk4sgfmmfb8qbn48ky33xqk42fdb3ii-bazel-7.4.1",
+              "path": "/nix/store/0svsm8c8fnn6r6kk50b17yvizc81vq58-bazel-7.6.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/1xk4sgfmmfb8qbn48ky33xqk42fdb3ii-bazel-7.4.1"
+          "store_path": "/nix/store/0svsm8c8fnn6r6kk50b17yvizc81vq58-bazel-7.6.0"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/8qdj6p43hsy2jri1yi00bb3hjr644s5l-bazel-7.4.1",
+              "path": "/nix/store/19q9a6arcrk68m4lkdn8m1kcswl6fp1l-bazel-7.6.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/8qdj6p43hsy2jri1yi00bb3hjr644s5l-bazel-7.4.1"
+          "store_path": "/nix/store/19q9a6arcrk68m4lkdn8m1kcswl6fp1l-bazel-7.6.0"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/az4mkc8ywp2ssw4fp41f77kjc5k8x753-bazel-7.4.1",
+              "path": "/nix/store/bjkg00w8jl2brd0hhnr01nnkny18mgy0-bazel-7.6.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/az4mkc8ywp2ssw4fp41f77kjc5k8x753-bazel-7.4.1"
+          "store_path": "/nix/store/bjkg00w8jl2brd0hhnr01nnkny18mgy0-bazel-7.6.0"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/xlfl8vvx7p95kf241gski5zlfsbzh0ix-bazel-7.4.1",
+              "path": "/nix/store/ghb3xxhqcbxis8jgaq5b9fk9bnfa15sy-bazel-7.6.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/xlfl8vvx7p95kf241gski5zlfsbzh0ix-bazel-7.4.1"
+          "store_path": "/nix/store/ghb3xxhqcbxis8jgaq5b9fk9bnfa15sy-bazel-7.6.0"
         }
       }
     },
