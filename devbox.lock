@@ -325,36 +325,36 @@
         }
       }
     },
-    "jdk-headless@24.0.0": {
-      "last_modified": "2025-05-12T14:38:58Z",
-      "resolved": "github:NixOS/nixpkgs/eaeed9530c76ce5f1d2d8232e08bec5e26f18ec1#jdk24_headless",
+    "jdk-headless@24.0.1": {
+      "last_modified": "2025-07-15T16:15:05Z",
+      "resolved": "github:NixOS/nixpkgs/dab3a6e781554f965bde3def0aa2fda4eb8f1708#jdk24_headless",
       "source": "devbox-search",
-      "version": "24.0.0",
+      "version": "24.0.1",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/57mwc7x3rn8b7f0n95jy80jxpcxrblqd-zulu-ca-jdk-24.0.0",
+              "path": "/nix/store/h0z2f9shh2i32cjqhrkmr1bbzm1hxzwn-zulu-ca-jdk-24.0.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/57mwc7x3rn8b7f0n95jy80jxpcxrblqd-zulu-ca-jdk-24.0.0"
+          "store_path": "/nix/store/h0z2f9shh2i32cjqhrkmr1bbzm1hxzwn-zulu-ca-jdk-24.0.1"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/wham1rgp04m5pjflrmsdzkfha2b4fy9m-zulu-ca-jdk-24.0.0",
+              "path": "/nix/store/i2l59q14n558l5wywpawqb1wfpwyawl3-zulu-ca-jdk-24.0.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/wham1rgp04m5pjflrmsdzkfha2b4fy9m-zulu-ca-jdk-24.0.0"
+          "store_path": "/nix/store/i2l59q14n558l5wywpawqb1wfpwyawl3-zulu-ca-jdk-24.0.1"
         },
         "x86_64-linux": {
           "outputs": [
             {
-              "path": "/tmp/containerbase/cache/nix/store/nxrq579ja8x529i6b7cnif22flly3zjd-openjdk-headless-24.0.1+9",
+              "path": "/tmp/containerbase/cache/nix/store/g3avb0bnifvyn59h8ld4ym5h2q1c9bb1-openjdk-headless-24.0.1+9",
               "default": true
             }
           ]
