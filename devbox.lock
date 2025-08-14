@@ -325,39 +325,39 @@
         }
       }
     },
-    "jdk-headless@24.0.0": {
-      "last_modified": "2025-05-12T14:38:58Z",
-      "resolved": "github:NixOS/nixpkgs/eaeed9530c76ce5f1d2d8232e08bec5e26f18ec1#jdk24_headless",
+    "jdk-headless@24.0.1": {
+      "last_modified": "2025-07-28T17:09:23Z",
+      "resolved": "github:NixOS/nixpkgs/648f70160c03151bc2121d179291337ad6bc564b#jdk24_headless",
       "source": "devbox-search",
-      "version": "24.0.0",
+      "version": "24.0.1+9",
       "systems": {
-        "aarch64-darwin": {
+        "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/57mwc7x3rn8b7f0n95jy80jxpcxrblqd-zulu-ca-jdk-24.0.0",
+              "path": "/nix/store/lwfympb9as4ihhsy9bx8l9zksl69xmll-openjdk-headless-24.0.1+9",
               "default": true
-            }
-          ],
-          "store_path": "/nix/store/57mwc7x3rn8b7f0n95jy80jxpcxrblqd-zulu-ca-jdk-24.0.0"
-        },
-        "x86_64-darwin": {
-          "outputs": [
+            },
             {
-              "name": "out",
-              "path": "/nix/store/wham1rgp04m5pjflrmsdzkfha2b4fy9m-zulu-ca-jdk-24.0.0",
-              "default": true
+              "name": "debug",
+              "path": "/nix/store/xn66a7hmk5pma9fyn5v61d0yqh07ah62-openjdk-headless-24.0.1+9-debug"
             }
           ],
-          "store_path": "/nix/store/wham1rgp04m5pjflrmsdzkfha2b4fy9m-zulu-ca-jdk-24.0.0"
+          "store_path": "/nix/store/lwfympb9as4ihhsy9bx8l9zksl69xmll-openjdk-headless-24.0.1+9"
         },
         "x86_64-linux": {
           "outputs": [
             {
-              "path": "/tmp/containerbase/cache/nix/store/nxrq579ja8x529i6b7cnif22flly3zjd-openjdk-headless-24.0.1+9",
+              "name": "out",
+              "path": "/nix/store/4357i3x5r05hwfc8q7409dqdxs8v7lag-openjdk-headless-24.0.1+9",
               "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/c17q50zfac867jkqbai5bgzksn6i3ym9-openjdk-headless-24.0.1+9-debug"
             }
-          ]
+          ],
+          "store_path": "/nix/store/4357i3x5r05hwfc8q7409dqdxs8v7lag-openjdk-headless-24.0.1+9"
         }
       }
     }
