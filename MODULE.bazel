@@ -21,13 +21,8 @@ register_toolchains(
 
 bazel_dep(name = "rules_jvm_external", version = "6.8")
 
-# https://github.com/bazelbuild/rules_scala/issues/1482
-bazel_dep(name = "rules_scala", repo_name = "io_bazel_rules_scala")
-git_override(
-    module_name = "rules_scala",
-    commit      = "50fe91e5ab238a58d30d573125469a489454b1c0",
-    remote      = "https://github.com/mbland/rules_scala",
-)
+# Use the latest official release of rules_scala
+bazel_dep(name = "rules_scala", version = "7.1.1", repo_name = "io_bazel_rules_scala")
 
 scala_config = use_extension(
     "@io_bazel_rules_scala//scala/extensions:config.bzl",
