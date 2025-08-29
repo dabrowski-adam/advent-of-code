@@ -19,6 +19,7 @@ register_toolchains(
     "@zig_sdk//toolchain:windows_arm64",
 )
 
+bazel_dep(name = "rules_jvm_external", version = "6.8")
 bazel_dep(name = "toolchains_llvm", version = "1.4.0")
 
 # https://github.com/uber/hermetic_cc_toolchain/issues/10
