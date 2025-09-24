@@ -157,51 +157,51 @@
         }
       }
     },
-    "colima@0.8.1": {
-      "last_modified": "2025-08-03T19:18:05Z",
-      "resolved": "github:NixOS/nixpkgs/bf9fa86a9b1005d932f842edf2c38eeecc98eef3#colima",
+    "colima@0.8.4": {
+      "last_modified": "2025-09-18T16:33:27Z",
+      "resolved": "github:NixOS/nixpkgs/f4b140d5b253f5e2a1ff4e5506edbf8267724bde#colima",
       "source": "devbox-search",
-      "version": "0.8.1",
+      "version": "0.8.4",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/wxm71k2yw96ky4hrwiiizvsnr2a5qch9-colima-0.8.1",
+              "path": "/nix/store/cnc23g03m1zc0sbl9jpa6kkscakj09fv-colima-0.8.4",
               "default": true
             }
           ],
-          "store_path": "/nix/store/wxm71k2yw96ky4hrwiiizvsnr2a5qch9-colima-0.8.1"
+          "store_path": "/nix/store/cnc23g03m1zc0sbl9jpa6kkscakj09fv-colima-0.8.4"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/ywxgq8c2m93la7nxjcbvpj4bils05hdf-colima-0.8.1",
+              "path": "/nix/store/34bb8fm850r8i3kgmcva21mwavksx09m-colima-0.8.4",
               "default": true
             }
           ],
-          "store_path": "/nix/store/ywxgq8c2m93la7nxjcbvpj4bils05hdf-colima-0.8.1"
+          "store_path": "/nix/store/34bb8fm850r8i3kgmcva21mwavksx09m-colima-0.8.4"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/limc6cjgqbhx4rdc550p75wqirihczx3-colima-0.8.1",
+              "path": "/nix/store/qbf469zn1dfaiqs16vc1x597yfyirpgz-colima-0.8.4",
               "default": true
             }
           ],
-          "store_path": "/nix/store/limc6cjgqbhx4rdc550p75wqirihczx3-colima-0.8.1"
+          "store_path": "/nix/store/qbf469zn1dfaiqs16vc1x597yfyirpgz-colima-0.8.4"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/nxzwf49k5iflibcrysj2cfl7j2k20i9m-colima-0.8.1",
+              "path": "/nix/store/d2d0zwnk6r8yyf1lijyk52cnmmv6hrqd-colima-0.8.4",
               "default": true
             }
           ],
-          "store_path": "/nix/store/nxzwf49k5iflibcrysj2cfl7j2k20i9m-colima-0.8.1"
+          "store_path": "/nix/store/d2d0zwnk6r8yyf1lijyk52cnmmv6hrqd-colima-0.8.4"
         }
       }
     },
