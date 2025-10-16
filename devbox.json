@@ -6,7 +6,7 @@
     "jdk-headless":                                      "25.0.0",
     "binutils":                                          "2.43.1",
     "github:NixOS/nixpkgs/nixos-24.11#stdenv.cc.cc.lib": "",
-    "colima":                                            "0.8.1",
+    "colima":                                            "0.8.4",
     "direnv":                                            "2.37.1",
     "buildifier":                                        "6.0.1"
   },
