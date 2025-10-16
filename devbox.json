@@ -3,7 +3,7 @@
   "packages": {
     "git":                                               "2.50.1",
     "bazel_7":                                           "7.6.0",
-    "jdk-headless":                                      "24.0.1",
+    "jdk-headless":                                      "25.0.0",
     "binutils":                                          "2.43.1",
     "github:NixOS/nixpkgs/nixos-24.11#stdenv.cc.cc.lib": "",
     "colima":                                            "0.8.1",
