@@ -157,51 +157,41 @@
         }
       }
     },
-    "colima@0.8.4": {
-      "last_modified": "2025-10-07T08:41:47Z",
-      "resolved": "github:NixOS/nixpkgs/bce5fe2bb998488d8e7e7856315f90496723793c#colima",
+    "colima@0.10.3": {
+      "last_modified": "2026-08-27T07:16:00Z",
+      "resolved": "github:NixOS/nixpkgs/c27cdad491a991b11ed731760aa2ef8db0cb0410#colima",
       "source": "devbox-search",
-      "version": "0.8.4",
+      "version": "0.10.3",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/wrk5kl4mr8ag4v0j2i5f1imv7k4xd4sy-colima-0.8.4",
+              "path": "/nix/store/yk78z3nl6vp483cv5j0pgyjgzinggcng-colima-0.10.3",
               "default": true
             }
           ],
-          "store_path": "/nix/store/wrk5kl4mr8ag4v0j2i5f1imv7k4xd4sy-colima-0.8.4"
+          "store_path": "/nix/store/yk78z3nl6vp483cv5j0pgyjgzinggcng-colima-0.10.3"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/bhbbs82dlrp4c32sb52vhqa5160j6b9y-colima-0.8.4",
+              "path": "/nix/store/waj170fi9yjx7ra58y620yrlysvba17i-colima-0.10.3",
               "default": true
             }
           ],
-          "store_path": "/nix/store/bhbbs82dlrp4c32sb52vhqa5160j6b9y-colima-0.8.4"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/wljbsgqanvkzwss2n8ns4f96b0facgsr-colima-0.8.4",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/wljbsgqanvkzwss2n8ns4f96b0facgsr-colima-0.8.4"
+          "store_path": "/nix/store/waj170fi9yjx7ra58y620yrlysvba17i-colima-0.10.3"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/j5qd07bv1wsyxx11lfzarp90izap8fnj-colima-0.8.4",
+              "path": "/nix/store/xs6iphlf5g6ppiwsw9n3h7lx5alc68w0-colima-0.10.3",
               "default": true
             }
           ],
-          "store_path": "/nix/store/j5qd07bv1wsyxx11lfzarp90izap8fnj-colima-0.8.4"
+          "store_path": "/nix/store/xs6iphlf5g6ppiwsw9n3h7lx5alc68w0-colima-0.10.3"
         }
       }
     },
