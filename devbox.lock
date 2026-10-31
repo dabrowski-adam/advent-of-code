@@ -133,27 +133,41 @@
         }
       }
     },
-    "buildifier@6.0.1": {
-      "last_modified": "2023-02-24T09:01:09Z",
-      "resolved": "github:NixOS/nixpkgs/7d0ed7f2e5aea07ab22ccb338d27fbe347ed2f11#buildifier",
+    "buildifier@10.2.0": {
+      "last_modified": "2026-10-30T07:30:20Z",
+      "resolved": "github:NixOS/nixpkgs/885ba4d038f10c3d17d7a92e8c3cc185b99c9158#buildifier",
       "source": "devbox-search",
-      "version": "6.0.1",
+      "version": "10.2.0",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
-              "path": "/nix/store/zv9zxadj0sj2zf0l2pziicwfj66708aa-bazel-buildtools-6.0.1",
+              "name": "out",
+              "path": "/nix/store/38vw7ya59ik05k9936hfl92bv3bj45bl-bazel-buildtools-10.2.0",
               "default": true
             }
-          ]
+          ],
+          "store_path": "/nix/store/38vw7ya59ik05k9936hfl92bv3bj45bl-bazel-buildtools-10.2.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/93ik3ii5ism73fhrrzk729mdc2aya3d0-bazel-buildtools-10.2.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/93ik3ii5ism73fhrrzk729mdc2aya3d0-bazel-buildtools-10.2.0"
         },
         "x86_64-linux": {
           "outputs": [
             {
-              "path": "/tmp/containerbase/cache/nix/store/143jhhm2l4c8357nraxm6l4b6a3wr4pw-bazel-buildtools-6.0.1",
+              "name": "out",
+              "path": "/nix/store/m49px01zarib5cml9wvk83vw34lfljm7-bazel-buildtools-10.2.0",
               "default": true
             }
-          ]
+          ],
+          "store_path": "/nix/store/m49px01zarib5cml9wvk83vw34lfljm7-bazel-buildtools-10.2.0"
         }
       }
     },
